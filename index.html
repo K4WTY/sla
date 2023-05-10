@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container" id="containerUm">
+        <div class="box">
+            <div class="box-1">
+                <input type="text" disabled="true" placeholder="R$ 0" class="saldoInput" id="saldoInput">
+                <p>Saldo em conta</p>
+            </div>
+            <div class="box-2">
+                <div>
+                    <button id="creditoButton">Cadastrar credito</button>
+                    <button id="debitoButton">Cadastrar debito</button>
+                </div>
+                <div class="button-div">
+                    <button id="extratoButton">Extrato</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-2" id="containerDois">
+        <div class="box">
+            <div class="box-1">
+                <p id="pC2">None</p>
+                <input type="number" class="inputC2" id="inputValor">
+                <p id="pC2-2">None</p>
+                <input type="text" class="inputC2" id="inputMotivo">
+                <button class="buttonC2" id="enviarButton">Enviar informações</button>
+                <button class="buttonC2" id="cancelarButton">Cancelar</button>
+            </div>
+        </div>
+    </div>
+    <div class="container-3" id="containerTres">
+        <div class="box">
+            <div class="box-1">
+                <p>Extrato</p>
+                <textarea id="extratoP" disabled="true">None</textarea>
+                <p id="saldoP">Saldo</p>
+                <button class="buttonC2" id="voltarButton">Voltar</button>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(231, 231, 231);
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-2 {
+    height: 100vh;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-3 {
+    height: 100vh;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    height: 60%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 5px 0px black;
+    background-color: rgb(59, 42, 206);
+}
+
+.box-1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.saldoInput {
+    height: 3.4rem;
+    width: 75%;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 0.5rem;
+    text-align: right;
+    padding-right: 0.3rem;
+    font-size: 1rem;
+}
+
+p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.box-2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    width: 9rem;
+    height: 2.5rem;
+    margin: 0.2rem;
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 0.9rem;
+}
+
+button:hover {
+    background-color: rgb(59, 42, 206);
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+}
+
+.inputC2 {
+    margin-top: 1rem;
+}
+
+.buttonC2 {
+    margin-top: 1rem;
+}
+
+textarea {
+    width: 253px;
+    height: 200px;
+    resize: none;
+    margin: 1rem;
+}
